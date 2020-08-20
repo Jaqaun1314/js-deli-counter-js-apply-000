@@ -14,7 +14,7 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(line) {
-   let lineNamesNums = [];
+  let lineNamesNums = [];
   for (let i = 0; i < line.length; i++) {
     lineNamesNums.push((i+1) + ". "+ lineNamesNums[i])
   }
